@@ -20,34 +20,62 @@ module counter_tb(
 
 clk clock_tb (.clock (clock));
 
-`include "driver_enable.v"
+`include "driver_reset.v"
 `include "checker.v"
 
 parameter ITERATIONS = 100;
-integer log;
-
+integer log_A;
+integer log_B;
+integer log_C;
 
 initial begin
 
     $dumpfile("tb.vcd");
     $dumpvars(0);
 
-    log = $fopen("tb.log");
-    $fdisplay(log, "time=%5d, Simulation Start", $time); ////////
-    $fdisplay(log, "time=%5d, Starting Reset", $time); ///////
+    // Open logs
+    log_A = $fopen("tb.log_A");
+    $fdisplay(log_A, "time=%5d, Simulation Start", $time); ////////
+    $fdisplay(log_A, "time=%5d, Starting Reset", $time); ///////
+
+    log_B = $fopen("tb.log_B");
+    $fdisplay(log_B, "time=%5d, Simulation Start", $time); ////////
+    $fdisplay(log_B, "time=%5d, Starting Reset", $time); ///////
+
+    log_C = $fopen("tb.log_C");
+    $fdisplay(log_C, "time=%5d, Simulation Start", $time); ////////
+    $fdisplay(log_C, "time=%5d, Starting Reset", $time); ///////
 
     drv_init();
 
-    $fdisplay(log, "time=%5d, Reset Completed", $time); /////
+    $fdisplay(log_A, "time=%5d, Reset Completed", $time); /////
+    $fdisplay(log_A, "time=%5d, Starting Test", $time);
 
-    $fdisplay(log, "time=%5d, Starting Test", $time);
+    $fdisplay(log_B, "time=%5d, Reset Completed", $time); /////
+    $fdisplay(log_B, "time=%5d, Starting Test", $time);
+
+    $fdisplay(log_C, "time=%5d, Reset Completed", $time); /////
+    $fdisplay(log_C, "time=%5d, Starting Test", $time);
+
+
     fork
         drv_request(ITERATIONS);   
         checker(ITERATIONS);
     join
-    $fdisplay(log, "time=%5d, Test Completed", $time);
-    $fdisplay(log, "time=%5d, Simulation Completed", $time);
-    $fclose(log);
+
+    // Close logs
+    $fdisplay(log_A, "time=%5d, Test Completed", $time);
+    $fdisplay(log_A, "time=%5d, Simulation Completed", $time);
+    $fclose(log_A);
+
+    $fdisplay(log_B, "time=%5d, Test Completed", $time);
+    $fdisplay(log_B, "time=%5d, Simulation Completed", $time);
+    $fclose(log_B);
+
+    $fdisplay(log_C, "time=%5d, Test Completed", $time);
+    $fdisplay(log_C, "time=%5d, Simulation Completed", $time);
+    $fclose(log_C);
+
     #200 $finish;
 end
 
