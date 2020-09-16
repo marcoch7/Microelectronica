@@ -29,6 +29,11 @@ invalid:
 	iverilog tb_top.v -o out.vvp
 	vvp out.vvp
 	gtkwave waveform.gtkw
+enable:
+	sed -i 's/`include "driver.*"/`include "driver_enable.v"/' counter_tb.v
+	iverilog tb_top.v -o out.vvp
+	vvp out.vvp
+	gtkwave waveform.gtkw	
 random:
 	sed -i 's/`include "driver.*"/`include "driver_random.v"/' counter_tb.v
 	iverilog tb_top.v -o out.vvp

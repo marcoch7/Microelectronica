@@ -34,6 +34,10 @@ make 11
 make invalid
 ```
 
+```c
+make enable
+```
+
 ### Pruebas de las senales de reset y enable
 
 ```c
