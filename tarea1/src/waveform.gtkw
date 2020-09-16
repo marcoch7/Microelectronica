@@ -1,0 +1,62 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Tue Sep 15 02:48:56 2020
+[*]
+[dumpfile] "/home/marcoch7/microelectronica/tarea1/tb.vcd"
+[dumpfile_mtime] "Tue Sep 15 02:31:28 2020"
+[dumpfile_size] 101476
+[savefile] "/home/marcoch7/microelectronica/tarea1/random.gtkw"
+[timestart] 0
+[size] 1179 788
+[pos] 346 83
+*-6.000000 15 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_top.
+[treeopen] tb_top.tb.
+[sst_width] 223
+[signals_width] 116
+[sst_expanded] 1
+[sst_vpaned_height] 218
+@28
+tb_top.tb.sb.clk
+tb_top.tb.sb.reset
+tb_top.tb.sb.enable_
+[color] 7
+tb_top.tb.sb.mode_[1:0]
+@200
+-TB
+@22
+[color] 1
+tb_top.tb.sb.D_[3:0]
+[color] 2
+tb_top.tb.sb.Q_sb[3:0]
+@28
+[color] 3
+tb_top.tb.sb.load_sb
+[color] 6
+tb_top.tb.sb.rco_sb
+@200
+-DUT
+@22
+[color] 2
+tb_top.dut_A.Q_A[3:0]
+[color] 2
+tb_top.dut_B.Q_B[3:0]
+[color] 2
+tb_top.dut_C.Q_C[3:0]
+@28
+[color] 6
+tb_top.dut_A.rco_A
+[color] 6
+tb_top.dut_B.rco_B
+@29
+[color] 6
+tb_top.dut_C.rco_C
+@28
+[color] 3
+tb_top.dut_A.load_A
+[color] 3
+tb_top.dut_B.load_B
+[color] 3
+tb_top.dut_C.load_C
+[pattern_trace] 1
+[pattern_trace] 0
