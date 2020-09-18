@@ -20,7 +20,7 @@ module counter_tb(
 
 clk clock_tb (.clock (clock));
 
-`include "driver_reset.v"
+`include "driver_random.v"
 `include "checker.v"
 
 parameter ITERATIONS = 100;
