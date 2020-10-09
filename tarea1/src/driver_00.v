@@ -77,6 +77,9 @@ input integer iteration;
         D_ = 13;
     end
     @(negedge clk) begin
+        
+    end
+    @(negedge clk) begin
         mode_ = 2'b00;
         D_ = 13;
     end

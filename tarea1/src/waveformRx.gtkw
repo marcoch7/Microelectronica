@@ -1,0 +1,64 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Sun Oct  4 05:25:30 2020
+[*]
+[dumpfile] "/home/marcoch7/Microelectronica/tarea1/src/tb.vcd"
+[dumpfile_mtime] "Sun Oct  4 05:23:59 2020"
+[dumpfile_size] 1500217
+[savefile] "/home/marcoch7/Microelectronica/tarea1/src/waveformRx.gtkw"
+[timestart] 0
+[size] 1179 788
+[pos] 346 83
+*-7.000000 220 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_top.
+[treeopen] tb_top.tb.
+[sst_width] 223
+[signals_width] 182
+[sst_expanded] 1
+[sst_vpaned_height] 218
+@28
+tb_top.tb.sb.clk
+tb_top.tb.sb.reset
+tb_top.tb.sb.enable_
+[color] 7
+tb_top.tb.sb.mode_[1:0]
+@200
+-TB
+@22
+[color] 1
+tb_top.tb.sb.D_[3:0]
+[color] 2
+tb_top.tb.sb.Q_sb[3:0]
+@28
+[color] 3
+tb_top.tb.sb.load_sb
+[color] 6
+tb_top.tb.sb.rco_sb
+@200
+-A
+@28
+tb_top.dut_A.rco_A
+@200
+-B
+@28
+tb_top.dut_B.rco_B
+@200
+-C
+@28
+tb_top.dut_C.rco_C
+@200
+-X
+@28
+tb_top.dut_.rco
+@200
+-R
+@28
+tb_top.dut_r.rco_atm
+@22
+tb_top.dut_r.Q_atm[3:0]
+@23
+tb_top.dut_r.Q_next[3:0]
+@28
+tb_top.dut_r.aver
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,51 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Thu Oct  8 05:57:44 2020
+[*]
+[dumpfile] "/home/marcoch7/Microelectronica/tarea2/tb.vcd"
+[dumpfile_mtime] "Thu Oct  8 05:51:44 2020"
+[dumpfile_size] 5281219
+[savefile] "/home/marcoch7/Microelectronica/tarea2/waveform_estr.gtkw"
+[timestart] 0
+[size] 1179 788
+[pos] 346 38
+*-21.000000 300000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_top.
+[treeopen] tb_top.tb.
+[sst_width] 223
+[signals_width] 126
+[sst_expanded] 1
+[sst_vpaned_height] 218
+@28
+tb_top.tb.sb.clk
+tb_top.tb.sb.reset
+tb_top.tb.sb.enable_
+[color] 7
+tb_top.tb.sb.mode_[1:0]
+@200
+-TB
+@22
+[color] 1
+tb_top.tb.sb.D_[3:0]
+[color] 2
+tb_top.tb.sb.Q_sb[3:0]
+@28
+[color] 3
+tb_top.tb.sb.rco_sb
+[color] 6
+tb_top.tb.sb.load_sb
+@200
+-DUT
+@22
+[color] 1
+tb_top.dut_s.D_synth[3:0]
+[color] 2
+tb_top.dut_s.Q_synth[3:0]
+@28
+[color] 3
+tb_top.dut_s.rco_synth
+@29
+[color] 6
+tb_top.dut_s.load_synth
+[pattern_trace] 1
+[pattern_trace] 0

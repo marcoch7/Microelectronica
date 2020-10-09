@@ -1,0 +1,10 @@
+time=    0, Simulation Start
+time=    0, Starting Reset
+time=  800, Reset Completed
+time=  800, Starting Test
+Time=900 Error dut_e: Q=000z, rco=0, load=0, scoreboard: Q_=000z, rco_=0, load_=0
+Time=1100 Error dut_e: Q=xxxx, rco=0, load=0, scoreboard: Q_=xxxx, rco_=0, load_=0
+Time=1300 Error dut_e: Q=xxxx, rco=0, load=0, scoreboard: Q_=xxxx, rco_=0, load_=0
+Time=1500 Error dut_e: Q=xxxx, rco=0, load=0, scoreboard: Q_=xxxx, rco_=0, load_=0
+time=4000800, Test Completed
+time=4000800, Simulation Completed
