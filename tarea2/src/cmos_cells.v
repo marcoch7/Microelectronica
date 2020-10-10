@@ -1,3 +1,31 @@
+`timescale 	1ns				/ 100ps
+//Ejemplo #1
+module BUF(A, Y);
+specify
+	specparam tpd= 4.5; //hoja de fabricante 74ACT244
+    (A*> Y) = (tpd, tpd); //tRise,tFall
+endspecify
+
+input A;
+output Y;
+assign Y = A;
+endmodule
+
+//Ejemplo #2
+module BUFX2 (A, Y);
+input  A ;
+output Y ;
+   buf (Y, A);
+   specify
+     // delay parameters
+     specparam
+       tpllh = 0.13,
+       tphhl = 0.15;
+     // path delays
+     (A *> Y) = (tpllh, tphhl);
+   endspecify
+endmodule
+
 // Entrada A
 // Salida Y
 module NOT(A, Y); // 74AC11004

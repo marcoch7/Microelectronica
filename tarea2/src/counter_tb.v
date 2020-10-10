@@ -19,7 +19,7 @@ module counter_tb(
 
 clk clock_tb (.clock (clock));
 
-`include "driver_01.v"
+`include "driver_00.v"
 `include "checker.v"
 
 parameter ITERATIONS = 1000;

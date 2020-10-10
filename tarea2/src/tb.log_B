@@ -1,8 +1,8 @@
 time=  800, Reset Completed
 time=  800, Starting Test
 Time=900 Error dut_s: Q=0000, rco=0, load=0, scoreboard: Q_=000z, rco_=0, load_=0
-Time=1100 Error dut_s: Q=1111, rco=1, load=0, scoreboard: Q_=xxxx, rco_=0, load_=0
-Time=1300 Error dut_s: Q=1110, rco=0, load=0, scoreboard: Q_=xxxx, rco_=0, load_=0
-Time=1500 Error dut_s: Q=1101, rco=0, load=0, scoreboard: Q_=xxxx, rco_=0, load_=0
+Time=1100 Error dut_s: Q=0011, rco=0, load=0, scoreboard: Q_=xxxx, rco_=0, load_=0
+Time=1300 Error dut_s: Q=0110, rco=0, load=0, scoreboard: Q_=xxxx, rco_=0, load_=0
+Time=1500 Error dut_s: Q=1001, rco=0, load=0, scoreboard: Q_=xxxx, rco_=0, load_=0
 time=4000800, Test Completed
 time=4000800, Simulation Completed
