@@ -1,5 +1,6 @@
 # Tarea 2 Microelectronica
-
+### Por
+Marco Chacon Soto - B61868
 ## Compilar
 
 El firmware se compila dentro de la carpeta src
