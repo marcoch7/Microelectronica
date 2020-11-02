@@ -1,0 +1,58 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Sat Oct 31 23:59:06 2020
+[*]
+[dumpfile] "/home/marcoch7/Microelectronica/tarea_3/Sumadores.vcd"
+[dumpfile_mtime] "Sat Oct 31 23:51:35 2020"
+[dumpfile_size] 639407
+[savefile] "/home/marcoch7/Microelectronica/tarea_3/wf.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-8.000000 246 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] BancoPruebas.
+[sst_width] 223
+[signals_width] 102
+[sst_expanded] 1
+[sst_vpaned_height] 152
+@200
+-Logic
+@22
+[color] 3
+BancoPruebas.sumadorLogico.a[7:0]
+[color] 3
+BancoPruebas.sumadorLogico.b[7:0]
+@28
+BancoPruebas.sumadorLogico.ci
+BancoPruebas.sumadorLogico.co
+@23
+[color] 2
+BancoPruebas.sumadorLogico.s[7:0]
+@200
+-Lookahead
+@22
+[color] 3
+BancoPruebas.sumadorLookahead.a[7:0]
+[color] 3
+BancoPruebas.sumadorLookahead.b[7:0]
+@28
+BancoPruebas.sumadorLookahead.ci
+BancoPruebas.sumadorLookahead.co
+@23
+[color] 2
+BancoPruebas.sumadorLookahead.s[7:0]
+@200
+-Rizado
+@22
+[color] 3
+BancoPruebas.sumadorRizado.a[7:0]
+[color] 3
+BancoPruebas.sumadorRizado.b[7:0]
+@28
+BancoPruebas.sumadorRizado.ci
+BancoPruebas.sumadorRizado.co
+@23
+[color] 2
+BancoPruebas.sumadorRizado.s[7:0]
+[pattern_trace] 1
+[pattern_trace] 0

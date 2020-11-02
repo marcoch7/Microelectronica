@@ -1,0 +1,119 @@
+################500########################
+sums: 500
+seed: 10~-311621822
+A = 00, B = 00
+PwrCntr[0]:     501240	//rizado
+PwrCntr[1]:     631500	//logico
+PwrCntr[2]:     554640	//lookahead
+
+delays: Logic~57 s, Lookahead~58 s, Rizado~57s
+
+##############################################
+sums: 500
+seed: 20~-1126154356
+A = 00, B = 00
+PwrCntr[0]:     513000
+PwrCntr[1]:     629640
+PwrCntr[2]:     565980
+
+delays: Logic~57 s, Lookahead~58 s, Rizado~57s
+
+##############################################
+sums: 500
+seed: 40~1539747872
+A = 00, B = 00
+PwrCntr[0]:     510300
+PwrCntr[1]:     627780
+PwrCntr[2]:     564960
+
+delays: Logic~57 s, Lookahead~58 s, Rizado~57s
+
+
+
+#################1000########################
+sums: 1000
+seed: 10~119974266
+A = 00, B = 01
+PwrCntr[0]:     1022460	//rizado
+PwrCntr[1]:     1270980	//logico
+PwrCntr[2]:     1119240	//lookahead
+
+delays: Logic~58 s, Lookahead~58 s, Rizado~57s
+
+##############################################
+sums: 1000
+seed: 20~-183926268
+A = 00, B = 01
+PwrCntr[0]:     1018500
+PwrCntr[1]:     1253460
+PwrCntr[2]:     1109820
+
+delays: Logic~58 s, Lookahead~58 s, Rizado~57s
+
+##############################################
+sums: 1000
+seed: 40~-791727336
+A = 00, B = 01
+PwrCntr[0]:     1017960
+PwrCntr[1]:     1257300
+PwrCntr[2]:     1116780
+
+delays: Logic~58 s, Lookahead~58 s, Rizado~57s
+
+
+
+#################2000########################
+sums: 2000
+seed: 10~1298874090
+A = FF, B = 01
+PwrCntr[0]:     2040420	//rizado
+PwrCntr[1]:     2536620	//logico
+PwrCntr[2]:     2237580	//lookahead
+
+delays: Logic~60 s, Lookahead~60 s, Rizado~69s
+
+##############################################
+sums: 2000
+seed: 20~-1897492492
+A = FF, B = 01
+PwrCntr[0]:     2014320
+PwrCntr[1]:     2500800
+PwrCntr[2]:     2201160
+
+delays: Logic~60 s, Lookahead~60 s, Rizado~69s
+
+##############################################
+sums: 2000
+seed: 40~299708936
+A = FF, B = 01
+PwrCntr[0]:     2026620
+PwrCntr[1]:     2508840
+PwrCntr[2]:     2227140
+
+delays: Logic~60 s, Lookahead~60 s, Rizado~69s
+
+
+
+#################5000########################
+sums: 5000
+seed: 10~-714247656
+PwrCntr[0]:     5034300	//rizado
+PwrCntr[1]:     6291120	//logico
+PwrCntr[2]:     5506080	//lookahead
+
+
+##############################################
+sums: 5000
+seed: 20~-785207758
+PwrCntr[0]:     5010660
+PwrCntr[1]:     6253560
+PwrCntr[2]:     5447400
+
+
+##############################################
+sums: 5000
+seed: 40~-927127962
+PwrCntr[0]:     5036460
+PwrCntr[1]:     6266700
+PwrCntr[2]:     5475660
+
