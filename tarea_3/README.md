@@ -32,3 +32,7 @@ Para compilar y correr el codigo se utilizan distintos comandos dependiendo de l
 ## Descripcion del programa
 
 El firmware compara los resultados de la potencia (PwrC) de 3 sumadores para diferentes semillas y distintos disenos de contador de Rizado.
+
+### Comentarios adicionales
+
+Los archivos default.txt, delay_1.txt y default_xor3.txt contienen los resultados de las pruebas realizadas. Estos se muestran en las tablas del reporte.
