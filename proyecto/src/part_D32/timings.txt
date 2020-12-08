@@ -1,0 +1,207 @@
+Top 20 maximum delay paths:
+Path DFFPOSX1_16/CLK to DFFPOSX1_19/D delay 1384.23 ps
+Path DFFPOSX1_21/CLK to DFFPOSX1_24/D delay 1384.23 ps
+Path DFFPOSX1_1/CLK to DFFPOSX1_4/D delay 1384.23 ps
+Path DFFPOSX1_6/CLK to DFFPOSX1_9/D delay 1384.23 ps
+Path DFFPOSX1_26/CLK to DFFPOSX1_29/D delay 1384.23 ps
+Path DFFPOSX1_31/CLK to DFFPOSX1_34/D delay 1384.23 ps
+Path DFFPOSX1_11/CLK to DFFPOSX1_14/D delay 1384.23 ps
+Path DFFPOSX1_36/CLK to DFFPOSX1_39/D delay 1384.23 ps
+Path DFFPOSX1_16/CLK to DFFPOSX1_18/D delay 1372.67 ps
+Path DFFPOSX1_21/CLK to DFFPOSX1_23/D delay 1372.67 ps
+Path DFFPOSX1_1/CLK to DFFPOSX1_3/D delay 1372.67 ps
+Path DFFPOSX1_6/CLK to DFFPOSX1_8/D delay 1372.67 ps
+Path DFFPOSX1_26/CLK to DFFPOSX1_28/D delay 1372.67 ps
+Path DFFPOSX1_31/CLK to DFFPOSX1_33/D delay 1372.67 ps
+Path DFFPOSX1_11/CLK to DFFPOSX1_13/D delay 1372.67 ps
+Path DFFPOSX1_36/CLK to DFFPOSX1_38/D delay 1372.67 ps
+Path DFFPOSX1_17/CLK to DFFPOSX1_19/D delay 1354.88 ps
+Path DFFPOSX1_22/CLK to DFFPOSX1_24/D delay 1354.88 ps
+Path DFFPOSX1_2/CLK to DFFPOSX1_4/D delay 1354.88 ps
+Path DFFPOSX1_7/CLK to DFFPOSX1_9/D delay 1354.88 ps
+Computed maximum clock frequency (zero slack) = 722.424 MHz
+-----------------------------------------
+
+Number of paths analyzed:  120
+
+Top 20 minimum delay paths:
+Path DFFPOSX1_38/CLK to output pin Q_32b[2] delay 348.388 ps
+Path DFFPOSX1_13/CLK to output pin Q_32b[6] delay 348.388 ps
+Path DFFPOSX1_33/CLK to output pin Q_32b[10] delay 348.388 ps
+Path DFFPOSX1_28/CLK to output pin Q_32b[14] delay 348.388 ps
+Path DFFPOSX1_8/CLK to output pin Q_32b[18] delay 348.388 ps
+Path DFFPOSX1_3/CLK to output pin Q_32b[22] delay 348.388 ps
+Path DFFPOSX1_23/CLK to output pin Q_32b[26] delay 348.388 ps
+Path DFFPOSX1_18/CLK to output pin Q_32b[30] delay 348.388 ps
+Path DFFPOSX1_39/CLK to output pin Q_32b[3] delay 353.626 ps
+Path DFFPOSX1_14/CLK to output pin Q_32b[7] delay 353.626 ps
+Path DFFPOSX1_34/CLK to output pin Q_32b[11] delay 353.626 ps
+Path DFFPOSX1_29/CLK to output pin Q_32b[15] delay 353.626 ps
+Path DFFPOSX1_9/CLK to output pin Q_32b[19] delay 353.626 ps
+Path DFFPOSX1_4/CLK to output pin Q_32b[23] delay 353.626 ps
+Path DFFPOSX1_24/CLK to output pin Q_32b[27] delay 353.626 ps
+Path DFFPOSX1_19/CLK to output pin Q_32b[31] delay 353.626 ps
+Path DFFPOSX1_37/CLK to output pin Q_32b[1] delay 383.141 ps
+Path DFFPOSX1_12/CLK to output pin Q_32b[5] delay 383.141 ps
+Path DFFPOSX1_32/CLK to output pin Q_32b[9] delay 383.141 ps
+Path DFFPOSX1_27/CLK to output pin Q_32b[13] delay 383.141 ps
+Design meets minimum hold timing.
+-----------------------------------------
+
+Number of paths analyzed:  364
+
+Top 20 maximum delay paths:
+Path input pin mode[1] to DFFPOSX1_11/CLK delay 1747.9 ps
+Path input pin mode[1] to DFFPOSX1_12/CLK delay 1747.9 ps
+Path input pin mode[1] to DFFPOSX1_13/CLK delay 1747.9 ps
+Path input pin mode[1] to DFFPOSX1_14/CLK delay 1747.9 ps
+Path input pin mode[1] to DFFPOSX1_15/CLK delay 1747.9 ps
+Path input pin mode[1] to DFFPOSX1_31/CLK delay 1747.9 ps
+Path input pin mode[1] to DFFPOSX1_32/CLK delay 1747.9 ps
+Path input pin mode[1] to DFFPOSX1_33/CLK delay 1747.9 ps
+Path input pin mode[1] to DFFPOSX1_34/CLK delay 1747.9 ps
+Path input pin mode[1] to DFFPOSX1_35/CLK delay 1747.9 ps
+Path input pin mode[1] to DFFPOSX1_26/CLK delay 1747.9 ps
+Path input pin mode[1] to DFFPOSX1_27/CLK delay 1747.9 ps
+Path input pin mode[1] to DFFPOSX1_28/CLK delay 1747.9 ps
+Path input pin mode[1] to DFFPOSX1_29/CLK delay 1747.9 ps
+Path input pin mode[1] to DFFPOSX1_30/CLK delay 1747.9 ps
+Path input pin mode[1] to DFFPOSX1_6/CLK delay 1747.9 ps
+Path input pin mode[1] to DFFPOSX1_7/CLK delay 1747.9 ps
+Path input pin mode[1] to DFFPOSX1_8/CLK delay 1747.9 ps
+Path input pin mode[1] to DFFPOSX1_9/CLK delay 1747.9 ps
+Path input pin mode[1] to DFFPOSX1_10/CLK delay 1747.9 ps
+-----------------------------------------
+
+Number of paths analyzed:  364
+
+Top 20 minimum delay paths:
+Path input pin clk to DFFPOSX1_40/CLK delay 0 ps
+Path input pin clk to DFFPOSX1_39/CLK delay 0 ps
+Path input pin clk to DFFPOSX1_38/CLK delay 0 ps
+Path input pin clk to DFFPOSX1_37/CLK delay 0 ps
+Path input pin clk to DFFPOSX1_36/CLK delay 0 ps
+Path input pin D_32b[29] to DFFPOSX1_17/D delay 174.524 ps
+Path input pin D_32b[25] to DFFPOSX1_22/D delay 174.524 ps
+Path input pin D_32b[21] to DFFPOSX1_2/D delay 174.524 ps
+Path input pin D_32b[17] to DFFPOSX1_7/D delay 174.524 ps
+Path input pin D_32b[13] to DFFPOSX1_27/D delay 174.524 ps
+Path input pin D_32b[9] to DFFPOSX1_32/D delay 174.524 ps
+Path input pin D_32b[5] to DFFPOSX1_12/D delay 174.524 ps
+Path input pin D_32b[1] to DFFPOSX1_37/D delay 174.524 ps
+Path input pin D_32b[28] to DFFPOSX1_16/D delay 174.545 ps
+Path input pin D_32b[24] to DFFPOSX1_21/D delay 174.545 ps
+Path input pin D_32b[20] to DFFPOSX1_1/D delay 174.545 ps
+Path input pin D_32b[16] to DFFPOSX1_6/D delay 174.545 ps
+Path input pin D_32b[12] to DFFPOSX1_26/D delay 174.545 ps
+Path input pin D_32b[8] to DFFPOSX1_31/D delay 174.545 ps
+Path input pin D_32b[4] to DFFPOSX1_11/D delay 174.545 ps
+-----------------------------------------
+
+
+
+
+
+
+
+osu050
+Top 20 maximum delay paths:
+Path DFFPOSX1_16/CLK to DFFPOSX1_19/D delay 1539.94 ps
+Path DFFPOSX1_21/CLK to DFFPOSX1_24/D delay 1539.94 ps
+Path DFFPOSX1_1/CLK to DFFPOSX1_4/D delay 1539.94 ps
+Path DFFPOSX1_6/CLK to DFFPOSX1_9/D delay 1539.94 ps
+Path DFFPOSX1_26/CLK to DFFPOSX1_29/D delay 1539.94 ps
+Path DFFPOSX1_31/CLK to DFFPOSX1_34/D delay 1539.94 ps
+Path DFFPOSX1_11/CLK to DFFPOSX1_14/D delay 1539.94 ps
+Path DFFPOSX1_36/CLK to DFFPOSX1_39/D delay 1539.94 ps
+Path DFFPOSX1_16/CLK to DFFPOSX1_18/D delay 1536.46 ps
+Path DFFPOSX1_21/CLK to DFFPOSX1_23/D delay 1536.46 ps
+Path DFFPOSX1_1/CLK to DFFPOSX1_3/D delay 1536.46 ps
+Path DFFPOSX1_6/CLK to DFFPOSX1_8/D delay 1536.46 ps
+Path DFFPOSX1_26/CLK to DFFPOSX1_28/D delay 1536.46 ps
+Path DFFPOSX1_31/CLK to DFFPOSX1_33/D delay 1536.46 ps
+Path DFFPOSX1_11/CLK to DFFPOSX1_13/D delay 1536.46 ps
+Path DFFPOSX1_36/CLK to DFFPOSX1_38/D delay 1536.46 ps
+Path DFFPOSX1_17/CLK to DFFPOSX1_19/D delay 1516.03 ps
+Path DFFPOSX1_22/CLK to DFFPOSX1_24/D delay 1516.03 ps
+Path DFFPOSX1_2/CLK to DFFPOSX1_4/D delay 1516.03 ps
+Path DFFPOSX1_7/CLK to DFFPOSX1_9/D delay 1516.03 ps
+Computed maximum clock frequency (zero slack) = 649.376 MHz
+-----------------------------------------
+
+Number of paths analyzed:  120
+
+Top 20 minimum delay paths:
+Path DFFPOSX1_38/CLK to output pin Q_32b[2] delay 458.904 ps
+Path DFFPOSX1_13/CLK to output pin Q_32b[6] delay 458.904 ps
+Path DFFPOSX1_33/CLK to output pin Q_32b[10] delay 458.904 ps
+Path DFFPOSX1_28/CLK to output pin Q_32b[14] delay 458.904 ps
+Path DFFPOSX1_8/CLK to output pin Q_32b[18] delay 458.904 ps
+Path DFFPOSX1_3/CLK to output pin Q_32b[22] delay 458.904 ps
+Path DFFPOSX1_23/CLK to output pin Q_32b[26] delay 458.904 ps
+Path DFFPOSX1_18/CLK to output pin Q_32b[30] delay 458.904 ps
+Path DFFPOSX1_39/CLK to output pin Q_32b[3] delay 484.266 ps
+Path DFFPOSX1_14/CLK to output pin Q_32b[7] delay 484.266 ps
+Path DFFPOSX1_34/CLK to output pin Q_32b[11] delay 484.266 ps
+Path DFFPOSX1_29/CLK to output pin Q_32b[15] delay 484.266 ps
+Path DFFPOSX1_9/CLK to output pin Q_32b[19] delay 484.266 ps
+Path DFFPOSX1_4/CLK to output pin Q_32b[23] delay 484.266 ps
+Path DFFPOSX1_24/CLK to output pin Q_32b[27] delay 484.266 ps
+Path DFFPOSX1_19/CLK to output pin Q_32b[31] delay 484.266 ps
+Path DFFPOSX1_36/CLK to output pin Q_32b[0] delay 490.113 ps
+Path DFFPOSX1_11/CLK to output pin Q_32b[4] delay 490.113 ps
+Path DFFPOSX1_31/CLK to output pin Q_32b[8] delay 490.113 ps
+Path DFFPOSX1_26/CLK to output pin Q_32b[12] delay 490.113 ps
+Design meets minimum hold timing.
+-----------------------------------------
+
+Number of paths analyzed:  364
+
+Top 20 maximum delay paths:
+Path input pin mode[1] to DFFPOSX1_11/CLK delay 1964.2 ps
+Path input pin mode[1] to DFFPOSX1_12/CLK delay 1964.2 ps
+Path input pin mode[1] to DFFPOSX1_13/CLK delay 1964.2 ps
+Path input pin mode[1] to DFFPOSX1_14/CLK delay 1964.2 ps
+Path input pin mode[1] to DFFPOSX1_15/CLK delay 1964.2 ps
+Path input pin mode[1] to DFFPOSX1_31/CLK delay 1964.2 ps
+Path input pin mode[1] to DFFPOSX1_32/CLK delay 1964.2 ps
+Path input pin mode[1] to DFFPOSX1_33/CLK delay 1964.2 ps
+Path input pin mode[1] to DFFPOSX1_34/CLK delay 1964.2 ps
+Path input pin mode[1] to DFFPOSX1_35/CLK delay 1964.2 ps
+Path input pin mode[1] to DFFPOSX1_26/CLK delay 1964.2 ps
+Path input pin mode[1] to DFFPOSX1_27/CLK delay 1964.2 ps
+Path input pin mode[1] to DFFPOSX1_28/CLK delay 1964.2 ps
+Path input pin mode[1] to DFFPOSX1_29/CLK delay 1964.2 ps
+Path input pin mode[1] to DFFPOSX1_30/CLK delay 1964.2 ps
+Path input pin mode[1] to DFFPOSX1_6/CLK delay 1964.2 ps
+Path input pin mode[1] to DFFPOSX1_7/CLK delay 1964.2 ps
+Path input pin mode[1] to DFFPOSX1_8/CLK delay 1964.2 ps
+Path input pin mode[1] to DFFPOSX1_9/CLK delay 1964.2 ps
+Path input pin mode[1] to DFFPOSX1_10/CLK delay 1964.2 ps
+-----------------------------------------
+
+Number of paths analyzed:  364
+
+Top 20 minimum delay paths:
+Path input pin clk to DFFPOSX1_40/CLK delay 0 ps
+Path input pin clk to DFFPOSX1_39/CLK delay 0 ps
+Path input pin clk to DFFPOSX1_38/CLK delay 0 ps
+Path input pin clk to DFFPOSX1_37/CLK delay 0 ps
+Path input pin clk to DFFPOSX1_36/CLK delay 0 ps
+Path input pin D_32b[29] to DFFPOSX1_17/D delay 192.717 ps
+Path input pin D_32b[25] to DFFPOSX1_22/D delay 192.717 ps
+Path input pin D_32b[21] to DFFPOSX1_2/D delay 192.717 ps
+Path input pin D_32b[17] to DFFPOSX1_7/D delay 192.717 ps
+Path input pin D_32b[13] to DFFPOSX1_27/D delay 192.717 ps
+Path input pin D_32b[9] to DFFPOSX1_32/D delay 192.717 ps
+Path input pin D_32b[5] to DFFPOSX1_12/D delay 192.717 ps
+Path input pin D_32b[1] to DFFPOSX1_37/D delay 192.717 ps
+Path input pin D_32b[28] to DFFPOSX1_16/D delay 195.106 ps
+Path input pin D_32b[24] to DFFPOSX1_21/D delay 195.106 ps
+Path input pin D_32b[20] to DFFPOSX1_1/D delay 195.106 ps
+Path input pin D_32b[16] to DFFPOSX1_6/D delay 195.106 ps
+Path input pin D_32b[12] to DFFPOSX1_26/D delay 195.106 ps
+Path input pin D_32b[8] to DFFPOSX1_31/D delay 195.106 ps
+Path input pin D_32b[4] to DFFPOSX1_11/D delay 195.106 ps
+-----------------------------------------
+

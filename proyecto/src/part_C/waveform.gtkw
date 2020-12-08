@@ -1,0 +1,78 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Mon Dec  7 20:19:42 2020
+[*]
+[dumpfile] "/home/marcoch7/Microelectronica/proyecto/part_C/tba.vcd"
+[dumpfile_mtime] "Mon Dec  7 20:16:14 2020"
+[dumpfile_size] 25370
+[savefile] "/home/marcoch7/Microelectronica/proyecto/part_C/waveform.gtkw"
+[timestart] 0
+[size] 1310 706
+[pos] -1 -1
+*-6.000000 255 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.dut.
+[treeopen] top.tb.
+[sst_width] 223
+[signals_width] 172
+[sst_expanded] 1
+[sst_vpaned_height] 188
+@200
+-dut
+@28
+top.dut.clk
+top.dut.reset
+top.dut.mode[1:0]
+top.dut.enable
+@24
+top.dut.D_32b[31:0]
+@22
+[color] 2
+top.dut.Q_32b[31:0]
+[color] 2
+top.dut.counter_one.Q[3:0]
+@29
+[color] 5
+top.dut.rco_32b
+@200
+-Q_4bit_counters
+@29
+[color] 5
+top.dut.counter_zero.rco
+@22
+[color] 2
+top.dut.counter_one.Q[3:0]
+@29
+[color] 5
+top.dut.counter_one.rco
+@22
+[color] 2
+top.dut.counter_two.Q[3:0]
+@29
+[color] 5
+top.dut.counter_two.rco
+@22
+[color] 2
+top.dut.counter_three.Q[3:0]
+[color] 2
+top.dut.counter_four.Q[3:0]
+[color] 2
+top.dut.counter_five.Q[3:0]
+[color] 2
+top.dut.counter_six.Q[3:0]
+[color] 2
+top.dut.counter_seven.Q[3:0]
+@200
+-tb
+@28
+top.tb.sb.mode_sb32[1:0]
+@24
+top.tb.sb.D_sb32[31:0]
+@420
+[color] 2
+top.tb.sb.Q_sb32[31:0]
+@28
+top.tb.sb.reset
+top.tb.sb.enable_
+[pattern_trace] 1
+[pattern_trace] 0

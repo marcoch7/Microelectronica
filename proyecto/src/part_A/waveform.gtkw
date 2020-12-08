@@ -1,0 +1,52 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Sun Dec  6 15:33:03 2020
+[*]
+[dumpfile] "/home/marcoch7/Microelectronica/proyecto/part_A/tba.vcd"
+[dumpfile_mtime] "Sun Dec  6 15:30:28 2020"
+[dumpfile_size] 137183
+[savefile] "/home/marcoch7/Microelectronica/proyecto/part_A/wf.gtkw"
+[timestart] 0
+[size] 1393 683
+[pos] -1 -1
+*-7.000000 200 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.tb.
+[sst_width] 223
+[signals_width] 134
+[sst_expanded] 1
+[sst_vpaned_height] 181
+@200
+-SB
+@28
+top.tb.sb.clk
+top.tb.sb.reset
+top.tb.sb.mode_sb4[1:0]
+top.tb.sb.enable_
+@22
+[color] 1
+top.tb.sb.D_sb4[3:0]
+@23
+[color] 2
+top.tb.sb.Q_sb4[3:0]
+@28
+top.tb.sb.rco_sb4
+top.tb.sb.load_sb4
+@200
+-DUT
+@28
+top.dut.clk
+top.dut.reset
+top.dut.mode[1:0]
+top.dut.enable
+@22
+[color] 1
+top.dut.D[3:0]
+@23
+[color] 2
+top.dut.Q[3:0]
+@28
+top.dut.rco
+top.dut.load
+[pattern_trace] 1
+[pattern_trace] 0

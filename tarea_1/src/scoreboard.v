@@ -12,10 +12,10 @@ always @(posedge clk) begin
         rco_sb <=  0;
         if(mode_ == 2'b00) begin 
             load_sb <=  0;
-            Q_sb <=  Q_sb + 3;   
-            if(Q_sb == 4'b1111 | Q_sb == 4'b1110 | Q_sb == 4'b1101) begin
+            if(Q_sb == 4'b1111) begin
                 rco_sb <=  1;
             end
+            Q_sb <=  Q_sb + 1;
         end
         else if(mode_ == 2'b01) begin
             load_sb <=  0;
@@ -26,10 +26,11 @@ always @(posedge clk) begin
         end
         else if(mode_ == 2'b10) begin
             load_sb <=  0;
-            if(Q_sb == 4'b1111) begin
+            Q_sb <=  Q_sb + 3;   
+            if(Q_sb == 4'b1111 | Q_sb == 4'b1110 | Q_sb == 4'b1101) begin
                 rco_sb <=  1;
             end
-            Q_sb <=  Q_sb + 1;
+            
         end
         else if(mode_ == 2'b11) begin
             load_sb <=  1;
@@ -43,7 +44,7 @@ always @(posedge clk) begin
         Q_sb <=  4'b0000;
     end
     else if(reset == 0 && enable_ == 0) begin
-        Q_sb <=  1'bz;
+        Q_sb <=  0;
     end
 end
 

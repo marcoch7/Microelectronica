@@ -1,0 +1,8 @@
+obstruction -7.2 154.5 187.2 159.0 metal1
+obstruction -7.2 -6.0 187.2 1.5 metal1
+obstruction -7.2 -6.0 1.2 159.0 metal1
+obstruction 183.6 -6.0 187.2 159.0 metal1
+obstruction 1.2 154.5 183.6 159.0 metal3
+obstruction 1.2 -6.0 183.6 1.5 metal3
+obstruction -7.2 1.5 1.2 154.5 metal2
+obstruction 183.6 1.5 187.2 154.5 metal2
